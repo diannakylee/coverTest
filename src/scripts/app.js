@@ -89,7 +89,6 @@ app.addNewItem = () => {
             $(`#todo-list`).append(toDo)
         }
     });
-    app.clearInput();
     app.deleteThis();
     console.log(`item`, item);
 }
